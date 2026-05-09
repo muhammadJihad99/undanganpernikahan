@@ -242,3 +242,49 @@ openBtn.addEventListener("click", () => {
     if (homeNav) homeNav.classList.add("active");
   }, 800);
 });
+
+// ===============================
+// FLOWER + GOLD PARTICLE EFFECT
+// ===============================
+
+const layer = document.querySelector(".floating-layer");
+
+// emoji bunga (ringan & elegan)
+const flowers = ["🌸", "🌺", "💮", "🌷"];
+
+function createFlower() {
+  const el = document.createElement("div");
+  el.classList.add("flower");
+
+  el.innerText = flowers[Math.floor(Math.random() * flowers.length)];
+
+  el.style.left = Math.random() * 100 + "vw";
+  el.style.animationDuration = 5 + Math.random() * 5 + "s";
+  el.style.fontSize = 14 + Math.random() * 18 + "px";
+
+  layer.appendChild(el);
+
+  setTimeout(() => {
+    el.remove();
+  }, 10000);
+}
+
+function createGold() {
+  const el = document.createElement("div");
+  el.classList.add("gold");
+
+  el.style.left = Math.random() * 100 + "vw";
+  el.style.animationDuration = 4 + Math.random() * 6 + "s";
+
+  el.style.width = el.style.height = 3 + Math.random() * 5 + "px";
+
+  layer.appendChild(el);
+
+  setTimeout(() => {
+    el.remove();
+  }, 10000);
+}
+
+// spawn loop
+setInterval(createFlower, 500);
+setInterval(createGold, 250);
