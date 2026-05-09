@@ -2328,3 +2328,63 @@ body {
   background: #000;
   color: #ff0050;
 }
+
+/* =========================
+   FLOATING LAYER EFFECT
+   BUNGA + PARTIKEL EMAS
+========================= */
+
+.floating-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 1;
+}
+
+/* bunga jatuh */
+.flower {
+  position: absolute;
+  top: -50px;
+
+  font-size: 18px;
+  opacity: 0.8;
+
+  animation: fall linear infinite;
+  color: #ffb6c1; /* pink soft */
+  filter: drop-shadow(0 0 6px rgba(255, 182, 193, 0.5));
+}
+
+/* partikel emas */
+.gold {
+  position: absolute;
+  top: -50px;
+
+  width: 6px;
+  height: 6px;
+
+  background: #d4af37;
+  border-radius: 50%;
+
+  opacity: 0.7;
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.8);
+
+  animation: fall linear infinite;
+}
+
+/* animasi jatuh */
+@keyframes fall {
+  0% {
+    transform: translateY(-10vh) translateX(0);
+    opacity: 0;
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(110vh) translateX(30px);
+    opacity: 0;
+  }
+}
