@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Pernikahan</title>
+  </head>
+
+  <body>
+    <!-- =========================
+     OPENING SCREEN
+========================= -->
+    <div class="opening-screen" id="openingScreen">
+      <div class="opening-card">
+        <!-- Frame Foto -->
+        <div class="frame">
+          <img
+            src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=987&auto=format&fit=crop"
+            alt="Pengantin"
+          />
+
+          <!-- Nama Pria (atas kanan) -->
+          <div class="groom-name">Ahmad Fauzi</div>
+
+          <!-- Nama Wanita (bawah kiri) -->
+          <div class="bride-name">Aisyah Putri</div>
+        </div>
+
+        <!-- Button -->
+        <button id="openBtn">Buka Undangan</button>
+      </div>
+    </div>
+
+    <!-- Desktop Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <h2>Wedding<span>Day</span></h2>
+      </div>
+
+      <ul class="nav-links">
+        <li>
+          <a href="#home">
+            <i class="fa-solid fa-house"></i>
+            Home
+          </a>
+        </li>
+
+        <li>
+          <a href="#mempelai">
+            <i class="fa-solid fa-heart"></i>
+            Mempelai
+          </a>
+        </li>
+
+        <li>
+          <a href="#acara">
+            <i class="fa-solid fa-calendar-days"></i>
+            Acara
+          </a>
+        </li>
+
+        <li>
+          <a href="#gallery">
+            <i class="fa-solid fa-image"></i>
+            Galeri
+          </a>
+        </li>
+
+        <li>
+          <a href="#ucapan">
+            <i class="fa-solid fa-comment-dots"></i>
+            Ucapan
+          </a>
+        </li>
+      </ul>
+
+      <!-- Music Button -->
+      <button class="music-btn">
+        <i class="fa-solid fa-play"></i>
+      </button>
+    </nav>
+
+    <!-- Mobile Bottom Navbar -->
+    <nav class="mobile-navbar">
+      <a href="#home">
+        <i class="fa-solid fa-house"></i>
+        <span>Home</span>
+      </a>
+
+      <a href="#mempelai">
+        <i class="fa-solid fa-heart"></i>
+        <span>Mempelai</span>
+      </a>
+
+      <a href="#acara">
+        <i class="fa-solid fa-calendar-days"></i>
+        <span>Acara</span>
+      </a>
+
+      <a href="#gallery">
+        <i class="fa-solid fa-image"></i>
+        <span>Galeri</span>
+      </a>
+
+      <a href="#ucapan">
+        <i class="fa-solid fa-comment"></i>
+        <span>Ucapan</span>
+      </a>
+    </nav>
+
+    <!-- Section Home -->
+    <section class="home-container" id="home">
+      <div class="overlay"></div>
+
+      <div class="home">
+        <p class="welcome-text">The Wedding Of</p>
+
+        <h1 class="couple-name">Ahmad <span>&</span> Aisyah</h1>
+
+        <p class="wedding-date">Minggu, 10 Mei 2026</p>
+
+        <div class="divider">
+          <span></span>
+          <i class="fa-solid fa-heart"></i>
+          <span></span>
+        </div>
+
+        <p class="home-description">
+          Dengan penuh kebahagiaan kami mengundang Anda untuk hadir dalam acara
+          pernikahan kami.
+        </p>
+
+        <!-- Scroll Down -->
+        <div class="scroll-down">
+          <span>Scroll</span>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- section mempelai -->
+    <section class="mempelai-container" id="mempelai">
+      <div class="mempelai">
+        <!-- Heading -->
+        <p class="mempelai-subtitle">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</p>
+
+        <h2 class="mempelai-title">Dengan Rahmat Allah SWT</h2>
+
+        <p class="mempelai-description">
+          Dengan penuh rasa syukur atas karunia dan rahmat Allah SWT, kami
+          bermaksud menyelenggarakan acara pernikahan putra-putri kami yang
+          insyaAllah akan dilaksanakan dalam suasana penuh kebahagiaan, cinta,
+          dan keberkahan.
+        </p>
+
+        <!-- Couple -->
+        <div class="couple-wrapper">
+          <!-- Groom -->
+          <div class="couple-card">
+            <div class="couple-image">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=987&auto=format&fit=crop"
+                alt="Mempelai Pria"
+              />
+            </div>
+
+            <h3>Ahmad Fauzi</h3>
+
+            <p>Putra Pertama Dari</p>
+
+            <span>Bapak Lorem & Ibu Ipsum</span>
+
+            <div class="social-links">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Love Icon -->
+          <div class="love-icon">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+
+          <!-- Bride -->
+          <div class="couple-card">
+            <div class="couple-image">
+              <img
+                src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=987&auto=format&fit=crop"
+                alt="Mempelai Wanita"
+              />
+            </div>
+
+            <h3>Aisyah Putri</h3>
+
+            <p>Putri Pertama Dari</p>
+
+            <span>Bapak Lorem & Ibu Ipsum</span>
+
+            <div class="social-links">
+              <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+
+              <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Acara -->
+    <section class="acara-container" id="acara">
+      <div class="acara">
+        <!-- Heading -->
+        <p class="acara-subtitle">Wedding Event</p>
+
+        <h2 class="acara-title">Save The Date</h2>
+
+        <p class="acara-description">
+          Dengan segala hormat kami mengundang Anda untuk hadir dan menjadi
+          bagian dari hari bahagia kami.
+        </p>
+
+        <!-- Countdown -->
+        <div class="countdown-wrapper">
+          <div class="countdown-box">
+            <h3 id="days">00</h3>
+            <span>Hari</span>
+          </div>
+
+          <div class="countdown-box">
+            <h3 id="hours">00</h3>
+            <span>Jam</span>
+          </div>
+
+          <div class="countdown-box">
+            <h3 id="minutes">00</h3>
+            <span>Menit</span>
+          </div>
+
+          <div class="countdown-box">
+            <h3 id="seconds">00</h3>
+            <span>Detik</span>
+          </div>
+        </div>
+
+        <!-- Event Cards -->
+        <div class="event-wrapper">
+          <!-- Akad -->
+          <div class="event-card">
+            <div class="event-icon">
+              <i class="fa-solid fa-ring"></i>
+            </div>
+
+            <h3>Akad Nikah</h3>
+
+            <div class="event-info">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i>
+                Minggu, 10 Mei 2026
+              </p>
+
+              <p>
+                <i class="fa-solid fa-clock"></i>
+                08.00 WIB - Selesai
+              </p>
+
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Gedung Pernikahan Jakarta
+              </p>
+            </div>
+
+            <a href="#" class="event-btn">
+              <i class="fa-solid fa-location-arrow"></i>
+              Lihat Lokasi
+            </a>
+          </div>
+
+          <!-- Resepsi -->
+          <div class="event-card">
+            <div class="event-icon">
+              <i class="fa-solid fa-champagne-glasses"></i>
+            </div>
+
+            <h3>Resepsi</h3>
+
+            <div class="event-info">
+              <p>
+                <i class="fa-solid fa-calendar-days"></i>
+                Minggu, 10 Mei 2026
+              </p>
+
+              <p>
+                <i class="fa-solid fa-clock"></i>
+                11.00 WIB - Selesai
+              </p>
+
+              <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Ballroom Jakarta Selatan
+              </p>
+            </div>
+
+            <a href="#" class="event-btn">
+              <i class="fa-solid fa-location-arrow"></i>
+              Lihat Lokasi
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section Gallery -->
+    <section class="gallery-container" id="gallery">
+      <div class="gallery">
+        <!-- Heading -->
+        <p class="gallery-subtitle">Our Love Story</p>
+
+        <h2 class="gallery-title">Kisah Cinta Kami</h2>
+
+        <div class="gallery-divider">
+          <span></span>
+          <i class="fa-solid fa-heart"></i>
+          <span></span>
+        </div>
+
+        <!-- Love Story -->
+        <div class="love-story">
+          <div class="story-card">
+            <div class="story-icon">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <h3>Awal Pertemuan</h3>
+
+            <p>
+              Tidak ada yang kebetulan di dunia ini, semua telah tersusun rapi
+              oleh Sang Maha Kuasa. Kami dipertemukan dalam sebuah pertemuan
+              sederhana, yang kemudian menjadi awal dari perjalanan cinta kami.
+            </p>
+          </div>
+
+          <div class="story-card">
+            <div class="story-icon">
+              <i class="fa-solid fa-ring"></i>
+            </div>
+
+            <h3>Menjalin Hubungan</h3>
+
+            <p>
+              Seiring berjalannya waktu, kami saling mengenal, memahami, dan
+              belajar menerima kekurangan satu sama lain. Hingga akhirnya kami
+              memutuskan untuk melangkah menuju ikatan suci pernikahan.
+            </p>
+          </div>
+
+          <div class="story-card">
+            <div class="story-icon">
+              <i class="fa-solid fa-champagne-glasses"></i>
+            </div>
+
+            <h3>Hari Bahagia</h3>
+
+            <p>
+              Dengan penuh rasa syukur dan kebahagiaan, kami mengundang Anda
+              untuk menjadi bagian dari hari istimewa kami, hari dimana dua hati
+              dipersatukan dalam cinta dan doa.
+            </p>
+          </div>
+        </div>
+
+        <!-- Gallery -->
+        <!-- Gallery -->
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>Forever Together</h3>
+              <p>Bersamamu adalah tempat ternyaman untuk pulang.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>Our Happiness</h3>
+              <p>Senyummu adalah alasan indah di setiap hariku.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>Love Story</h3>
+              <p>Cinta sederhana yang tumbuh menjadi selamanya.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>One Heart</h3>
+              <p>Dua hati yang dipersatukan dalam doa dan cinta.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>Sweet Moment</h3>
+              <p>Setiap momen bersamamu selalu terasa istimewa.</p>
+            </div>
+          </div>
+
+          <div class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1529636798458-92182e662485?q=80&w=987&auto=format&fit=crop"
+              alt=""
+            />
+
+            <div class="gallery-caption">
+              <h3>Eternal Love</h3>
+              <p>Cinta ini akan terus tumbuh hingga akhir waktu.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div class="gallery-modal" id="galleryModal">
+      <span class="close-gallery" id="closeGallery">
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+
+      <!-- Prev -->
+      <button class="gallery-nav prev" id="prevBtn">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <!-- Image -->
+      <img id="modalImage" src="" alt="" />
+
+      <!-- Next -->
+      <button class="gallery-nav next" id="nextBtn">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <!-- section ucapan -->
+    <section class="ucapan-kontainer" id="ucapan">
+      <div class="ucapan">
+        <!-- Heading -->
+        <p class="ucapan-subtitle">Wedding Wishes</p>
+
+        <h2 class="ucapan-title">Ucapan & Doa</h2>
+
+        <div class="ucapan-divider">
+          <span></span>
+          <i class="fa-solid fa-heart"></i>
+          <span></span>
+        </div>
+
+        <p class="ucapan-description">
+          Berikan ucapan terbaik dan doa restu untuk kedua mempelai agar
+          perjalanan cinta mereka selalu dipenuhi kebahagiaan, keberkahan, dan
+          cinta yang abadi.
+        </p>
+
+        <!-- Form -->
+        <div class="ucapan-form-wrapper">
+          <form class="ucapan-form">
+            <div class="input-group">
+              <i class="fa-solid fa-user"></i>
+
+              <input type="text" placeholder="Nama Anda" />
+            </div>
+
+            <div class="input-group">
+              <i class="fa-solid fa-envelope"></i>
+
+              <input type="email" placeholder="Email Anda" />
+            </div>
+
+            <div class="input-group textarea-group">
+              <i class="fa-solid fa-comment-dots"></i>
+
+              <textarea
+                rows="5"
+                placeholder="Tulis ucapan dan doa..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">
+              <i class="fa-solid fa-paper-plane"></i>
+              Kirim Ucapan
+            </button>
+          </form>
+        </div>
+
+        <!-- Wishes -->
+        <div class="wish-wrapper">
+          <!-- Card -->
+          <div class="wish-card">
+            <div class="wish-top">
+              <div class="wish-profile">
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="wish-user">
+                <h3>Rizky Ramadhan</h3>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  2 Jam yang lalu
+                </span>
+              </div>
+            </div>
+
+            <p>
+              Selamat menempuh hidup baru. Semoga menjadi keluarga yang sakinah,
+              mawaddah, warahmah dan selalu diberikan kebahagiaan sampai akhir
+              hayat.
+            </p>
+          </div>
+
+          <!-- Card -->
+          <div class="wish-card">
+            <div class="wish-top">
+              <div class="wish-profile">
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="wish-user">
+                <h3>Siti Aisyah</h3>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  5 Jam yang lalu
+                </span>
+              </div>
+            </div>
+
+            <p>
+              MasyaAllah, turut bahagia atas pernikahan kalian. Semoga cinta
+              kalian selalu tumbuh setiap hari dan dipenuhi keberkahan Allah
+              SWT.
+            </p>
+          </div>
+
+          <!-- Card -->
+          <div class="wish-card">
+            <div class="wish-top">
+              <div class="wish-profile">
+                <i class="fa-solid fa-user"></i>
+              </div>
+
+              <div class="wish-user">
+                <h3>Andi Saputra</h3>
+                <span>
+                  <i class="fa-solid fa-clock"></i>
+                  1 Hari yang lalu
+                </span>
+              </div>
+            </div>
+
+            <p>
+              Selamat atas pernikahannya. Semoga selalu diberikan keharmonisan,
+              rezeki yang melimpah, dan cinta yang abadi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section titip hadiah -->
+    <section class="hadiah-container" id="hadiah">
+      <div class="hadiah">
+        <!-- Heading -->
+        <p class="hadiah-subtitle">Wedding Gift</p>
+
+        <h2 class="hadiah-title">Beri Hadiah</h2>
+
+        <div class="hadiah-divider">
+          <span></span>
+          <i class="fa-solid fa-gift"></i>
+          <span></span>
+        </div>
+
+        <p class="hadiah-description">
+          Doa restu Anda merupakan hadiah terindah bagi kami. Namun jika ingin
+          memberikan tanda kasih, dapat melalui rekening berikut.
+        </p>
+
+        <!-- Gift Cards -->
+        <div class="gift-wrapper">
+          <!-- BCA -->
+          <div class="gift-card">
+            <div class="gift-top">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/5/5c/Bank_Central_Asia.svg"
+                alt="Bank BCA"
+              />
+
+              <span>Bank BCA</span>
+            </div>
+
+            <div class="rekening-number" id="bca-number">1234567890</div>
+
+            <p>a.n Ahmad Fauzi</p>
+
+            <button class="copy-btn" data-copy="1234567890">
+              <i class="fa-solid fa-copy"></i>
+              Salin Rekening
+            </button>
+          </div>
+
+          <!-- BRI -->
+          <div class="gift-card">
+            <div class="gift-top">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/2/2e/BRI_2020.svg"
+                alt="Bank BRI"
+              />
+
+              <span>Bank BRI</span>
+            </div>
+
+            <div class="rekening-number">9876543210</div>
+
+            <p>a.n Aisyah Putri</p>
+
+            <button class="copy-btn" data-copy="9876543210">
+              <i class="fa-solid fa-copy"></i>
+              Salin Rekening
+            </button>
+          </div>
+
+          <!-- Nagari -->
+          <div class="gift-card">
+            <div class="gift-top">
+              <img
+                src="https://logowiki.net/wp-content/uploads/imgp/Bank-Nagari-Logo-1-3297.JPG"
+                alt="Bank Nagari"
+              />
+
+              <span>Bank Nagari</span>
+            </div>
+
+            <div class="rekening-number">1122334455</div>
+
+            <p>a.n Ahmad & Aisyah</p>
+
+            <button class="copy-btn" data-copy="1122334455">
+              <i class="fa-solid fa-copy"></i>
+              Salin Rekening
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================
+     SECTION TERIMA KASIH
+========================= -->
+
+    <section class="terimakasih-container">
+      <div class="terimakasih">
+        <!-- Ornament -->
+        <div class="thank-icon">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <!-- Subtitle -->
+        <p class="thank-subtitle">Thank You</p>
+
+        <!-- Title -->
+        <h2 class="thank-title">Terima Kasih</h2>
+
+        <!-- Divider -->
+        <div class="thank-divider">
+          <span></span>
+          <i class="fa-solid fa-ring"></i>
+          <span></span>
+        </div>
+
+        <!-- Description -->
+        <p class="thank-description">
+          Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+          Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu untuk
+          pernikahan kami.
+        </p>
+
+        <p class="thank-description second">
+          Atas kehadiran dan doa restunya, kami ucapkan terima kasih.
+        </p>
+
+        <!-- Couple -->
+        <div class="thank-couple">
+          Ahmad Fauzi
+          <span>&</span>
+          Aisyah Putri
+        </div>
+
+        <!-- Bottom Ornament -->
+        <div class="thank-bottom-icon">
+          <i class="fa-solid fa-heart"></i>
+        </div>
+
+        <!-- Hubungi Developer -->
+        <div class="contact-dev">
+          <p class="contact-title">Hubungi Developer</p>
+
+          <div class="contact-icons">
+            <!-- WhatsApp -->
+            <a
+              href="https://wa.me/6282178283463"
+              target="_blank"
+              class="contact-item wa"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+
+            <!-- Email -->
+            <a href="mailto:jiydeveloper@gmail.com" class="contact-item email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <!-- TikTok -->
+            <a
+              href="https://www.tiktok.com/@jiydeveloper"
+              target="_blank"
+              class="contact-item tiktok"
+            >
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
